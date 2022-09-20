@@ -43,6 +43,9 @@ body {
     letter-spacing: 0.02em;
     color: var(--main-color-text)
 }
+.nav-list .link.current {
+    color: #2196F3;
+}
 
 .nav-item:hover, .nav-item:focus {
     color: #2196F3;
