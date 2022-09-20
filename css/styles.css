@@ -140,7 +140,6 @@ body {
 }
 
 .address-link{
-    font-style: normal;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -148,13 +147,47 @@ body {
 }
 
 .footer-link {
-    font-style: normal;
     font-size: 14px;
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
 }
 
 /* Portfolio */
-.portfolio-btn {
+.portfolio-btn, .portfolio-butn {
     cursor: pointer;
+}
+.portfolio-btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.portfolio-butn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color-text)
+
 } 
+.image-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-color-text)
+}
+.image-text {
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    color: var(--second-color-text);
+}
+
