@@ -84,6 +84,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    cursor: pointer;
 }
 /* Features */
 .visually-hidden {
@@ -154,3 +155,6 @@ body {
 }
 
 /* Portfolio */
+.portfolio-btn {
+    cursor: pointer;
+} 
