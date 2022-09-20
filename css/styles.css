@@ -1,15 +1,20 @@
+:root {
+    --main-color-text: #212121;
+    --second-color-text: #757575;
+}
+
 body {
-background-color: E5E5E5;
-color: #212121;
-font-family: 'Roboto', sans-serif;
-letter-spacing: 0.03em;
+    background-color: E5E5E5;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
 }
 .list{
     list-style: none;
 }
 
 .link {
-text-decoration: none ;
+    text-decoration: none ;
 }
 /* Колір фону у навігації #ECECEC*/
 /* колір фону  у шапці #2F303A*/
@@ -28,16 +33,15 @@ text-decoration: none ;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.14;
-    color: #2196F3;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 /* Navigation */
-.nav-item {
+.nav-item{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--main-color-text)
 }
 
 .nav-item:hover, .nav-item:focus {
@@ -48,7 +52,7 @@ text-decoration: none ;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--second-color-text)
 }
 .nav-on-item:hover, .nav-on-item:focus { 
     color: #2196F3;
@@ -97,35 +101,33 @@ text-decoration: none ;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--main-color-text)
 }
 .features-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--second-color-text)
 }
 /* Hero */
 .hero-title, .profile-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
-    color: #212121;
+    color: var(--main-color-text)
 }
 /* Profile */
 .profile-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
-    color: #212121;
+    color: var(--main-color-text)
 }
 
 .profile-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
-    color: #757575;
+    color: var(--second-color-text)
 }
 
 /* Footer */
@@ -135,7 +137,6 @@ text-decoration: none ;
 
 .address-link{
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -144,8 +145,9 @@ text-decoration: none ;
 
 .footer-link {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
 }
+
+/* Portfolio */
