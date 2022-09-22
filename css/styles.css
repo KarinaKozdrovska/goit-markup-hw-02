@@ -55,7 +55,7 @@ body {
     color: var(--main-nav-color)
 }
 .nav-item:hover, .nav-item:focus {
-    color: var(--main-nav-color)
+    color: var(--main-nav-color);
 }
 .nav-on-item{
     font-weight: 500;
@@ -65,7 +65,8 @@ body {
     color: var(--second-color-text)
 }
 .nav-on-item:hover, .nav-on-item:focus { 
-    color: var(--main-nav-color)
+    color: var(--main-nav-color);
+    
 }
 
 /* Main part*/
@@ -88,11 +89,12 @@ body {
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.06em;
-    color: var(--white-color-text);
     cursor: pointer;
-    background: var(--blue-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+}
+.about-btn:hover, .about-btn:focus {
+    background: var(--blue-color);
 }
 /* Features */
 .visually-hidden {
@@ -146,7 +148,9 @@ body {
 .footer {
     background: var(--second-background-color);
 }
-
+.address {
+    font-style: normal;
+}
 .address-link{
     font-size: 14px;
     line-height: 1.7;
